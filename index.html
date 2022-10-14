@@ -26,19 +26,19 @@
         <caption>Boletim Escolar</caption>
         <thead>
             <tr>
-                <th>Área</th>
-                <th>Disciiplina</th>
-                <th>Notas</th>
-                <th>Nota1</th>
-                <th>Nota2</th>
-                <th>Media</th>
+                <th scope="col">Área</th>
+                <th scope="col">Disciplina</th>
+                <th scope="col">Notas</th>
+                <th scope="col">Nota1</th>
+                <th scope="col">Nota2</th>
+                <th scope="col">Media</th>
             </tr>
         </thead>
             <tbody>
                 <tr>
-                    <th rowspan="4">Exatas</th>
+                    <th scope="rowgroup" rowspan="4">Exatas</th>
                     <td>Matemática</td>
-                    <td>0.0</td>
+                    <td >0.0</td>
                     <td>0.0</td>
                     <td>0.0</td>
                 </tr>
@@ -61,11 +61,11 @@
                     <td>0.0</td>
                 </tr>
                 <tr>
-                    <th colspan="4">Médias de Exatas</th>
+                    <th scope="col" colspan="4">Médias de Exatas</th>
                     <td style="background-color: darkgray;">0.0</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Humanas</th>
+                    <th scope="rowgroup" rowspan="2">Humanas</th>
                     <td>História</td>
                     <td>0.0</td>
                     <td>0.0</td>
@@ -78,7 +78,7 @@
                     <td>0.0</td>
                 </tr>
                 <tr>
-                    <th colspan="4">
+                    <th scope="roe" colspan="4">
                         Médias Humanas
                     </th>
                     <td style="background-color: darkgray;">0.0</td>
